@@ -1,0 +1,47 @@
+GIT Y GITHUB
+
+Introducción a la terminal y línea de comandos
+
+pwd: Me muestra mi ubicacion actual.
+
+ls: Me muestra en un listado, todos los archivos dentro de mi 
+ubicacion.
+
+ls -l: Muestra todos los archivos (visibles) con sus permisos
+
+ls -al: Muestra todos los archivos (visibles y no visibles) con 
+sus permisos
+
+CTRL + L: limpia la consola.
+
+cd: "change directory"
+
+cd /C: Me lleva a Disco Local C:
+
+cd ..: Me lleva a una carpeta antes.
+
+cd : Me lleva al HOME.
+
+cd "letra" + TAB: me muestra todas las carpetas que empiezan con 
+esa letra.
+
+mkdir: Creas una carpeta.
+
+mkdir nombreCarpeta: Creas una carpeta con nombre.
+
+touch: Creas un archivo vacio.
+
+touch nombrearchivo.extension: creas un archivo vacio con 
+nombre.
+
+cat nombreArchivo.extension: Puedes ver el contenido de ese 
+archivo.
+
+history: Muestra todos los comandos ya usados. (historial)
+
+!numero: history te mostrara en una lista enumerada los comandos 
+hechos por vos, con !numero podras seleccionarlo y se ejecutara ese comando.
+
+rm nombreArchivo.extension: "remove" eliminas un archivo, o carpeta, hasta incluso, EL DISCO DURO.
+
+COMANDO --help: Nos muestra que atributos ponerle al comando.

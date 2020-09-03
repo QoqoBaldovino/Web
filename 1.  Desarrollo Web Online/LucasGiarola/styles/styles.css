@@ -1,0 +1,207 @@
+body
+{
+  font-family:'Playfair Display', serif;
+  margin: 0 auto;
+  background-color: #cba8a6;
+
+}
+
+h2,h3,h4,h5,h6{
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+}
+
+h2{
+
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+p, a, li{
+  color: black;
+}
+
+.container{
+  width:1000px;
+  margin: 0 auto;
+  height: inherit;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  /*border: 1px solid red;*/
+}
+
+.header{
+  background-color: white ;
+  color:beige;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  height: inherit;
+}
+
+.header ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  height: inherit;
+  
+}
+
+.header ul li{
+  height: inherit;
+  
+}
+
+.header a{
+  color: black;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header ul li a:hover{
+  text-decoration: underline;
+}
+
+.ancho{
+  border: 5px solid red;
+}
+
+.hero{
+  margin-top: 5px;
+  
+}
+
+.hero-pic{
+  object-fit: cover;
+  border: 3px solid black;
+}
+
+
+.material{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  
+}
+
+.album{
+
+  border-radius: 10px;
+  padding: 5px;
+  border: 3px solid black;
+  background-color: #d5e5d8;
+}
+
+.project-img-wrapper{
+  width: 500px;
+}
+
+.project-title{
+  font-size: 30px;
+  margin: 15px 0 0 15px;
+}
+
+
+.project-date
+{
+  font-size: 20px;
+  margin: 10px 0 0 15px; 
+}
+
+.project-songlist{
+  font-family:'Playfair Display', serif;
+  padding-left: 30px;
+}
+
+.eventos-lista{
+  background-color: #d5e5d8;
+}
+
+.eventoOk{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 3px solid black;
+  ;
+}
+
+.eventoOk p{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+.evento-ticket{
+  margin-right: 20px;
+}
+
+.evento-ticket a{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 17px;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.evento-ticket a:hover{
+  background-color: #cba8a6;
+  color: black;
+}
+
+.contacto{
+  margin-top: 30px;
+  margin-bottom: 0;
+  background-color: rgb(70, 67, 67);
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.contacto h3{
+  text-align: center;
+  color: white;
+}
+
+
+.email{
+text-align: center;
+margin-bottom: 20px;
+color: white;
+}
+
+.email input{
+  width: 200px;
+}
+
+.mensaje{
+  color:white;
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  margin-left: 355px;
+}
+
+.mensaje textarea{
+  margin-bottom: 10px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  background-color: white;
+}
